@@ -1,6 +1,11 @@
-
+/* fonts */
 .raleway-font-one{
   font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.inter-tight-font-two {
+  font-family: "Inter Tight", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -10,6 +15,9 @@
     width: 100%;
     height: 700px;
     margin-bottom: 115px;
+}
+body{
+    background-color: rgba(190, 231, 231, 0.206);
 }
 /* nav styles */
 nav{
@@ -64,6 +72,7 @@ nav{
     justify-content: space-between;
     margin: 0 auto;
     align-items: center;
+    margin-bottom: 115px;
 }
 .main-banner-title{
     font-size: 42px;
@@ -79,4 +88,139 @@ nav{
     width: 405px;
     height: 330px;
     border-radius: 50px;
+}
+/* productive users styles */
+.productive-users{
+    background-color: rgba(78, 71, 255, 0.1);
+    width: 1140px;
+    height: 310px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding: 50px;
+    border-radius: 25px;
+}
+.properties{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.number{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.element{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 0;
+}
+/* users feedback styles */
+.users-feedback{
+    width: 1140px;
+    height: 342px;
+    margin: 140px auto;
+}
+.say{
+    color: rgba(37, 36, 50, 1);
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.card{
+    background-color: rgba(78, 71, 255, 0.1);
+    width: 370px;
+    height: 245px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.13);
+    padding: 25px;
+    text-align: left;
+}
+.stars{
+    display: flex;
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.stars .star{
+    width: 20px;
+    height: 20px;
+}
+.card-property{
+    width: 318px;
+    height: 80px;
+    margin-bottom: 24px;
+}
+.card-property-heading{
+    color: rgba(30, 30, 30, 1);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.card-property-element{
+    color: rgba(30, 30, 30, 1);
+    font-size: 15px;
+    padding-right: 24px;
+}
+.card-identity{
+   display: flex;
+   gap: 12px;
+   justify-content: left;
+   margin-top: 30px;
+   padding-top:10px ;
+}
+.image{
+    width: 40px;
+    height: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.name{
+    color: rgba(117, 117, 117, 1);
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+.date{
+    color: rgba(179, 179, 179, 1);
+    margin-top: 0px;
+    padding-top: 5px;
+}
+/* another section styles */
+.focus{
+    width: 1140px;
+    height: 700px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 240px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.focus h3{
+    color: rgba(0, 0, 0, 1);
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.focus p{
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 0px;
+}
+.focus button{
+    margin: 20px auto;
+}
+.focus-image{
+    width: 840px;
+    height: 365px;
+    border-radius: 48px;
 }
