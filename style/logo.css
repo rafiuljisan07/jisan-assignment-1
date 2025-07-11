@@ -224,3 +224,53 @@ nav{
     height: 365px;
     border-radius: 48px;
 }
+/* contact section styles */
+.massage{
+    width: 1140px;
+    height: 634px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    font-size: 97px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    width: 50%;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+.form input[type="text"], .form input[type="email"]{
+    width: 500px;
+    height: 70px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.form textarea{
+    width: 500px;
+    height: 135px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.form label{
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.form button{
+    width: 540px;
+    height: 62px;
+    padding: 10px 20px;
+}
