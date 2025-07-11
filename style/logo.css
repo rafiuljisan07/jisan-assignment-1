@@ -274,3 +274,35 @@ nav{
     height: 62px;
     padding: 10px 20px;
 }
+/* footer styles */
+.end{
+    width: 1140px;
+    height: 430px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.end-logo{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 850;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+}
+.end-item-elements{
+    text-align: center;
+    color: rgba(137, 135, 161, 1);
+    font-size: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.links{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0 auto;
+    color: rgba(137, 135, 161, 1);
+    font-size: 20px;
+}
